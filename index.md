@@ -4,7 +4,7 @@ Welcome to my personal website! I'm a high school senior, getting ready to go to
 
 ## 🚀 Projects
 
-Below is a collection of some of my favorite coding projects. Click on the project titles to learn more.
+Below is a collection of some of my favorite coding projects. Click on the project titles to view the project's code.
 
 ---
 
