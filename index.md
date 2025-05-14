@@ -9,6 +9,7 @@ Below is a collection of some of my favorite coding projects. Click on the proje
 ---
 
 ### 🎰 [Diamond Shores Casino](https://github.com/lsmelcer/CSC-134/blob/main/finalProject_smelcer.c%2B%2B)
+[Presentation](file:///E:/Diamond%20Shores%20Casino/Diamond_Shores_Casino_Presentation.html)
 
 **Description:**  
 Single-player casino game focused on casino games played only against the house. It is purely the logic as the game is played in the console. 
