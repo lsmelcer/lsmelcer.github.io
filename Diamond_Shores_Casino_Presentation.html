@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diamond Shores Casino Presentation</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+        h1, h2, h3 { color: #2c3e50; }
+        hr { margin: 40px 0; }
+    </style>
+</head>
+<body>
+    <h1>Diamond Shores Casino</h1>
+    <h3>A Multi-Game Virtual Casino in C++</h3>
+    <p><strong>Presented by:</strong> [Your Name]</p>
+    <p><strong>Course/Project:</strong> [Class or Project Name]</p>
+    <p><strong>Date:</strong> [Date]</p>
+
+    <hr>
+    <h2>Slide 2: Introduction</h2>
+    <p><strong>What is Diamond Shores Casino?</strong></p>
+    <ul>
+        <li>A virtual casino simulation built in C++.</li>
+        <li>Offers five classic casino games.</li>
+        <li>Emulates a chip-based betting experience.</li>
+        <li>Designed using a modular, function-based approach.</li>
+    </ul>
+
+    <hr>
+    <h2>Slide 3: Game Overview</h2>
+    <ul>
+        <li><strong>Blackjack</strong> – Classic 21-point card game.</li>
+        <li><strong>Craps</strong> – Dice game involving betting on outcomes.</li>
+        <li><strong>Roulette</strong> – Spin the wheel and pick red, black, or a number.</li>
+        <li><strong>Baccarat</strong> – Player vs Banker hand comparison with draw rules.</li>
+        <li><strong>Slots</strong> – Simulated slot machine with randomized reels.</li>
+    </ul>
+
+    <hr>
+    <h2>Slide 4: Game Architecture</h2>
+    <ul>
+        <li>Main game loop handles game selection and chip balance.</li>
+        <li>Player starts with a chip pool (e.g., 1000 chips).</li>
+        <li>Each game modifies chip count based on outcomes.</li>
+        <li>Games implemented as separate functions for clarity and modularity.</li>
+    </ul>
+
+    <hr>
+    <h2>Slide 5: Baccarat Deep Dive</h2>
+    <ul>
+        <li>Implements card drawing using <code>drawCard()</code> and a simulated deck.</li>
+        <li>Calculates hand values (modulo 10 rule).</li>
+        <li>Real-world Baccarat logic:
+            <ul>
+                <li>Player draws 3rd card based on initial total.</li>
+                <li>Banker draws based on complex conditional rules.</li>
+            </ul>
+        </li>
+        <li>Uses <code>vector&lt;int&gt;</code> to manage player and banker hands.</li>
+        <li>Outputs hands visually using <code>printHand()</code>.</li>
+    </ul>
+
+    <hr>
+    <h2>Slide 6: Key Features</h2>
+    <ul>
+        <li>Random number generation for realism (<code>rand()</code>, seeded with <code>time(0)</code>).</li>
+        <li>Clear terminal-based UI (text prompts and feedback).</li>
+        <li>Consistent chip-tracking across all games.</li>
+        <li>Timed pauses (<code>this_thread::sleep_for</code>) simulate real gameplay pacing.</li>
+        <li>Organized, reusable code design—easy to expand.</li>
+    </ul>
+
+    <hr>
+    <h2>Slide 7: Sample Gameplay Flow</h2>
+    <ol>
+        <li>Program welcomes the player and shows available chips.</li>
+        <li>Player selects a game from a menu.</li>
+        <li>Player places a bet (validated against balance).</li>
+        <li>Game plays out and updates chip count.</li>
+        <li>Player can return to menu or exit.</li>
+    </ol>
+
+    <hr>
+    <h2>Slide 8: Future Enhancements</h2>
+    <ul>
+        <li>Add a <strong>Graphical User Interface (GUI)</strong> using SFML or Qt.</li>
+        <li>Introduce <strong>persistent profiles</strong> to save player progress.</li>
+        <li>Add more games (e.g., poker, keno).</li>
+        <li>Implement <strong>multiplayer</strong> or simulated AI opponents.</li>
+        <li>Refactor for object-oriented design (use classes).</li>
+    </ul>
+
+    <hr>
+    <h2>Slide 9: Conclusion</h2>
+    <ul>
+        <li>Diamond Shores Casino showcases how <strong>modular programming</strong> can build engaging simulations.</li>
+        <li>Provides a platform for learning <strong>C++ structures, randomness, and logic handling.</strong></li>
+        <li>Great foundation for expanding into more complex or graphical applications.</li>
+        <li>A fun and educational project for programmers interested in gaming and simulations.</li>
+    </ul>
+</body>
+</html>
